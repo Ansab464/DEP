@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff; 
+    padding: 1rem; 
+    text-align: center; 
+}
+
+header .logo img {
+    width: 100px;
+}
+
+
+nav ul {
+    display: flex; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+
+.main-banner {
+    position: relative; 
+    text-align: center; 
+    color: white;
+}
+
+.main-banner img {
+    width: 100%;
+    height: auto; 
+}
+
+.main-banner .banner-content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+.btn {
+    background: red; 
+    color: #fff; 
+    padding: 0.5rem 1rem; 
+    margin: 0.5rem; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+
+.about {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center; 
+}
+
+
+.services {
+    padding: 2rem; 
+    background-color: #f9f9f9;
+    text-align: center; 
+}
+
+.service-item {
+    margin: 1rem 0; 
+}
+
+
+footer {
+    background: #333; 
+    color: #fff; 
+    padding: 1rem;
+    text-align: center; 
+}
